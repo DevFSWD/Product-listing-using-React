@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const CartPage = ({ cartItems, onRemoveFromCart }) => {
-  const totalAmount = cartItems.reduce((total, item) => total + item.price, 0);
+  const totalAmount = cartItems.reduce((total, item) => total + item.price, 0)
 
   return (
     <div className="p-6">
@@ -32,7 +32,7 @@ const CartPage = ({ cartItems, onRemoveFromCart }) => {
         </>
       )}
     </div>
-  );
-};
+  )
+}
 
 export default CartPage

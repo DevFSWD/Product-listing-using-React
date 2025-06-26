@@ -1,0 +1,68 @@
+const products = [
+  {
+    id: 1,
+    name: 'Windows 11 - Pro',
+    price: 12000,
+    category: 'Category A',
+    rating: 4.5,
+    image: 'https://uniquec.com/wp-content/uploads/Win-11-Pro.png',
+  },
+  {
+    id: 2,
+    name: 'Windows 11',
+    price: 10000,
+    category: 'Category B',
+    rating: 4.3,
+    image: 'https://i.pinimg.com/736x/6f/c4/b6/6fc4b679638863cf1d4185c3e833d624.jpg',
+  },
+  {
+    id: 3,
+    name: 'Windows 10',
+    price: 8500,
+    category: 'Category B',
+    rating: 4.2,
+    image: 'https://i.pinimg.com/736x/a9/e2/fb/a9e2fbd553881370e170f00605214488.jpg',
+  },
+  {
+    id: 4,
+    name: 'Windows 8.1',
+    price: 7000,
+    category: 'Category B',
+    rating: 3.0,
+    image: 'https://i.pinimg.com/736x/1f/51/10/1f51109170a4edd542596cdd54b4ecd0.jpg',
+  },
+  {
+    id: 5,
+    name: 'Windows 7 - Ultimate',
+    price: 8000,
+    category: 'Category A',
+    rating: 4.0,
+    image: 'https://i.pinimg.com/736x/5e/59/5f/5e595f6f6a5659ac8575db688039b447.jpg',
+  },
+  {
+    id: 6,
+    name: 'Windows 7 - 2020 Edition',
+    price: 7500,
+    category: 'Category A',
+    rating: 4.0,
+    image: 'https://i.pinimg.com/736x/9c/b6/b9/9cb6b9818dd2c1fa38c675cb9fafa2dd.jpg',
+  },
+  {
+    id: 7,
+    name: 'Windows Vista - Ultimate',
+    price: 7500,
+    category: 'Category A',
+    rating: 3.8,
+    image: 'https://i.pinimg.com/736x/82/5a/90/825a90fd2aa8ad2db98a77c5a2063498.jpg',
+  },
+  {
+    id: 8,
+    name: 'Windows XP',
+    price: 5000,
+    category: 'Category B',
+    rating: 3.5,
+    image: 'https://i.pinimg.com/736x/54/d2/ca/54d2ca9b010e849897e5ef14f3e2d40e.jpg',
+  },
+];
+
+export default products;
